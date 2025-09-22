@@ -3,9 +3,50 @@
   color: white;
   font-family: 'Poppins', sans-serif;
 }
-
+html {
+  font-size: 16px;
+}
 body {
   margin: 0;
   padding: 0;
   background-color: rgb(27, 27, 27);
+}
+#root {
+  display: flex;
+  justify-content: center;
+}
+.APP {
+  width: 1500px;
+}
+@media (max-width: 1920px) {
+  html {
+    font-size: 14px;
+  }
+  .APP {
+    width: 1200px;
+  }
+}
+@media (max-width: 1400px) {
+  html {
+    font-size: 12px;
+  }
+  .APP {
+    width: 950px;
+  }
+}
+@media (max-width: 1024px) {
+  html {
+    font-size: 10px;
+  }
+  .APP {
+    width: 700px;
+  }
+}
+@media (max-width: 768px) {
+  html {
+    font-size: 7.5px;
+  }
+  .APP {
+    width: 550px;
+  }
 }
