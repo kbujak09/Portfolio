@@ -36,17 +36,15 @@ body {
 }
 @media (max-width: 1024px) {
   html {
-    font-size: 10px;
+    font-size: 11px;
   }
   .APP {
-    width: 700px;
+    width: 100%;
+    padding: 0 2.4rem;
   }
 }
 @media (max-width: 768px) {
   html {
-    font-size: 7.5px;
-  }
-  .APP {
-    width: 550px;
+    font-size: 9px;
   }
 }

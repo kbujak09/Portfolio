@@ -1,0 +1,15 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+}
+.image {
+  width: 6.4rem;
+}
+.name {
+  font-size: 1.6rem;
+  font-weight: 500;
+  letter-spacing: 0.1rem;
+}
